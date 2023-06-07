@@ -1,0 +1,10 @@
+:root {
+
+  /* Primary colors */
+  --cyan-dark: hsl(176, 72%, 28%);
+  --cyan-moderate: hsl(176, 50%, 47%);
+
+  /* Neutral colors */
+  --black: hsl(0, 0%, 0%);
+  --gray-dark: hsl(176, 72%, 28%);
+}

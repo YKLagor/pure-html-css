@@ -1,0 +1,127 @@
+.top-bar {
+  display: flex;
+  padding: 0 11%;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  color: white;
+  min-width: 25ch;
+}
+
+.nav-item {
+  flex-grow: 1;
+}
+
+.main-card {
+  display: flex;
+  flex-flow: column;
+  margin: -4% 28% 0 28%;
+}
+
+.banner {
+  background: white;
+  border: rgba(105, 96, 101, 0.15) 1px solid;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.banner h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.banner h2, .sub-card .button h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 2.1rem;
+  margin-block: 1.125rem;
+}
+
+.banner p {
+  font-size: 0.85rem;
+  color: #878787;
+}
+
+.banner-1 h1, .banner-1 p {
+  margin-inline: 2rem;
+}
+
+.button {
+  display: flex;
+  background: var(--cyan-moderate);
+  border-radius: 2rem;
+}
+
+.last {
+  margin-left: 3rem;
+}
+
+.banner-1 h2 {
+  color: white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.75rem 2.125rem;
+  white-space: nowrap;
+}
+
+.stat-item {
+  flex-grow: 1;
+}
+
+.stat-item p {
+  margin-top: 0.5rem;
+}
+
+.divider {
+  border-left:1px solid rgba(0, 0, 0, 0.19);
+  margin: auto;
+  height:3.5rem;
+}
+
+.banner-3 p {
+  padding: 0.75rem 2.1rem;
+  line-height: 1.5rem;
+}
+
+.banner-3 h2 {
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.sub-card .banner {
+  margin: 0.75rem 2.1rem;
+}
+
+.sub-card .sub-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-header .highlighted {
+  font-weight: bold;
+  color: var(--cyan-moderate);
+
+}
+
+.sub-card .button h2 {
+  color: white;
+}
+
+.quantity p {
+  padding-left: 0;
+}
+
+.menu-toggle .bar {
+  width: 34px;
+  height: 6px;
+  margin: 6px auto;
+  transition: all 0.3s ease-in-out;
+  background: white;
+  border-radius: 20rem;
+}
